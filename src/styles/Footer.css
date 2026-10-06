@@ -1,0 +1,60 @@
+.footer {
+  width: 100%;
+  background-color: #121619;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 20px 30px;
+  box-sizing: border-box;
+  margin-top: auto;
+}
+
+.socialMedia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.socialMedia a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.08);
+  color: white;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.socialMedia a:hover {
+  background-color: #ff9f1c;
+  color: #121619;
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(255, 159, 28, 0.4);
+}
+
+.footer-tagline {
+  color: #a4b0be;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 6px 0;
+}
+
+.heart-icon {
+  color: #e71d36;
+  fill: #e71d36;
+}
+
+.footer p {
+  color: #ced6e0;
+  font-size: 14px;
+  margin: 4px 0;
+  text-align: center;
+}
